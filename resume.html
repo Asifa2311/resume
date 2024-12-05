@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Asifa Parveen</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            max-width: 1200px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        /* Left side styles */
+        .left {
+            background-color: #4CAF50;
+            color: white;
+            width: 48%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Right side styles */
+        .right {
+            background-color: #ffffff;
+            color: #333;
+            width: 48%;
+            padding: 20px;
+            box-sizing: border-box;
+            border-left: 2px solid #f0f0f0;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        h3 {
+            margin: 5px 0;
+            font-size: 1.5em;
+            font-weight: lighter;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .skills, .education, .projects, .achievements {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li, .education li, .projects li, .achievements li {
+            background-color: #e0e0e0;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+
+        .skills li:hover, .education li:hover, .projects li:hover, .achievements li:hover {
+            background-color: #c8e6c9;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .left, .right {
+                width: 100%;
+                border-left: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+            <div class="left">
+            <header>
+                <h1>Asifa Parveen</h1>
+                <h3>Data Science Student</h3>
+            </header>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul class="skills">
+                    <li>Machine Learning (SVM, Random Forest, Logistic Regression)</li>
+                    <li>Data Science (Python, R, SQL)</li>
+                    <li>Web Development (HTML, CSS, JavaScript, PHP)</li>
+                    <li>Deep Learning </li>
+                    <li>Algorithms & Data Structures</li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <ul class="education">
+                    <li><strong>BSc in Data Science</strong>, [sri ramachandra university], 2024 - Present</li>
+                    <li><strong>High School </strong>, [kalashetra matriculation higher secoundary scchool], 2021</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:e6223018@sriher.edu.in>e6223018@sriher.edu.in</a></p>
+                <p>GitHub: <a href="https://github.com/Asifa2311" target="_blank">https://github.com/Asifa2311</a></p>
+                <p>linkedin : <a href ="https://www.linkedin.com/in/asifa-parveen-m-a-">https://www.linkedin.com/in/asifa-parveen-m-a-</a></p>
+            </section>
+        </div>
+
+                <div class="right">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Hello! I'm Asifa Parveen, a passionate Data Science student with expertise in machine learning, web development, and programming. I enjoy solving complex problems and creating innovative solutions. I am eager to learn and grow in the tech field, with a particular focus on data-driven decision making.</p>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <ul class="projects">
+                    <li><strong>Breast Cancer Detection Using AI</strong> - Developed a machine learning model to predict breast cancer based on medical data.</li>
+                    <li><strong>Weather Watcher Web App</strong> - Built an interactive weather app using HTML, CSS, JavaScript, and PHP.</li>
+                    <li><strong>Inventory Management System</strong> - Created an inventory management system using Java for a small business.</li>
+                </ul>
+            </section>
+
+            <section id="achievements">
+                <h2>Achievements</h2>
+                <ul class="achievements">
+                    <li>Participated in Tech Expo '24</li>
+                    <li>Completed Data Science certification in Python</li>
+                    <li>Presented research paper on conference </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    
+</body>
+</html>
